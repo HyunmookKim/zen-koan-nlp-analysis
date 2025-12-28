@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (too large for git)
+data/raw/*
+!data/raw/.gitkeep
+
+# Results (regeneratable)
+results/figures/*
+results/tables/*
+results/statistics/*
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!results/statistics/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.log
